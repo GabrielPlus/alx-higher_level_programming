@@ -48,7 +48,7 @@ def rec_backtrack(board, y):
                 rec_backtrack(board, y + 1)
 
 
-if len(sys.argv) is not 2:
+if len(sys.argv) != 2:
     error_exit("Usage: nqueens N")
 
 try:
